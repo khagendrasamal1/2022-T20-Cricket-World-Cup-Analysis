@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="wave-background"></div>
+        <h1>Welcome to My Power BI Projects</h1>
+    </header>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#github">GitHub</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <h2>Introduction</h2>
+            <p>Welcome to my collection of Power BI projects. Here, you'll find a curated selection of dashboards and reports that showcase my skills in data visualization and analysis. I have completed a Power BI Data Analyst course from Microsoft on Coursera, where I learned to transform data into interactive, insightful visualizations. This collection reflects my journey through various real-world data challenges and showcases my ability to create meaningful business insights using Power BI. Feel free to explore the projects and see how data can be transformed into actionable intelligence.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-intro-box">
+            <p>
+                In this section, I showcase a range of data analysis and visualization projects that highlight the application of Power BI in real-world scenarios. Each project represents a unique challenge and demonstrates the use of data to derive actionable insights. The section features interactive reports, detailed analyses, and visualizations created using Power BI, illustrating proficiency in transforming raw data into meaningful insights.
+            </p>
+        </div>
+        <div class="project">
+            <h3>2022 T20 Cricket World Cup Analysis</h3>
+            <div class="project-overview">
+                <p>
+                    This project involves analyzing the 2022 T20 Cricket World Cup using data extracted from ESPN Cricinfo. The data was scraped using Bright Data and processed with Python in Jupyter Notebook. The analysis focused on key performance metrics and parameters to evaluate team and player performances. The Power BI report created presents interactive dashboards and insights based on this comprehensive data analysis.
+                </p>
+
+                <!-- Image Gallery Section -->
+                <div class="image-gallery">
+                    <div class="gallery-item">
+                        <img src="final 11.png" alt="Team Performance">
+                        <div class="gallery-text">
+                            <h4>Team Performance</h4>
+                            <p>The team should be able to score at least 180 runs on average and defend 150 runs on average.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="openers.png" alt="Openers">
+                        <div class="gallery-text">
+                            <h4>Openers</h4>
+                            <p>Parameters for openers include batting average > 30, strike rate > 140, innings batted > 3, boundary % > 50, and batting position < 4.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="middle_order.png" alt="Middle Order">
+                        <div class="gallery-text">
+                            <h4>Middle Order</h4>
+                            <p>Parameters for middle order include batting average > 40, strike rate > 125, innings batted > 3, average balls faced > 20, and batting position > 2.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="finishers.png" alt="Finisher">
+                        <div class="gallery-text">
+                            <h4>Finisher</h4>
+                            <p>Parameters for finishers include batting average > 25, strike rate > 130, innings batted > 3, average balls faced > 12, batting position < 4, and innings bowled > 1.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="all-rounders.png" alt="All-Rounders">
+                        <div class="gallery-text">
+                            <h4>All-Rounders</h4>
+                            <p>Parameters for all-rounders include batting average > 15, strike rate > 140, innings batted > 2, batting position > 4, innings bowled > 2, bowling economy < 7, and bowling strike rate < 20.</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="fast_bowler.png" alt="Fast Bowlers">
+                        <div class="gallery-text">
+                            <h4>Fast Bowlers</h4>
+                            <p>Parameters for fast bowlers include innings bowled > 4, bowling economy < 7, bowling strike rate < 16, bowling average < 20, and dot ball % > 40.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Power BI Report Embed -->
+                <div class="powerbi-report">
+                    <h3>Interactive Power BI Report</h3>
+                    <p>Sign in to Microsoft Power BI to interact with the report.</p>
+                    <iframe title="t20_cricket_wc" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=69019d33-9154-481f-b310-ec3d5c5df884&autoAuth=true&ctid=f439318b-c037-4ee9-bfd3-31eddc56f6e0" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section id="github">
+        <h2>GitHub Repositories</h2>
+        <p>
+            Explore the code, files, and resources related to my projects on GitHub. Here, you can find all the repositories for the projects featured on this website, including detailed documentation, code samples, and more. Each project repository provides insights into the development process and implementation details.
+        </p>
+        <ul>
+            <li>
+                <a href="https://github.com/khagendrasamal1/2022-t20-WC-Analysis-with-Power-BI" target="_blank">➡️ 2022 T20 Cricket World Cup Analysis</a>
+            </li>
+            <!-- Add additional GitHub repository links here if needed -->
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Khagendra Samal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
